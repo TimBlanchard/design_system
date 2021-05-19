@@ -1,10 +1,9 @@
 import React from 'react';
 import './Input.scss'
 
-function Input (props) {
-    const { size = 'medium', ...rest } = props
+const Input = ({...rest }) => {
     return (
-        <input className={`input ${size}`} {...rest}/>
+        <input className="input" {...rest}/>
     )
 }
 

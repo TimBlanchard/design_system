@@ -10,11 +10,11 @@ function FormRegister() {
     return (
         <div className="form-container">
             <form  className="form" onSubmit={handleSubmit}>
-                <LabelWithInput label={'First name'} placeholder={'Your first name'} size={'medium'}/>
-                <LabelWithInput label={'Last name'} placeholder={'Your last name'} size={'medium'}/>
-                <LabelWithInput label={'Email'} placeholder={'Your email'} size={'medium'}/>
-                <LabelWithInput label={'Username'} placeholder={'Your username'} size={'medium'}/>
-                <LabelWithInput label={'Password'} placeholder={'Your password'} size={'medium'}/>
+                <LabelWithInput label={'First name'} type={'error'} placeholder={'Your first name'} />
+                <LabelWithInput label={'Last name'} type={'link'} placeholder={'Your last name'} />
+                <LabelWithInput label={'Email'} placeholder={'Your email'} />
+                <LabelWithInput label={'Username'} placeholder={'Your username'} />
+                <LabelWithInput label={'Password'} placeholder={'Your password'} />
                 <Button variant='primary'>Sign-up</Button>
             </form>
         </div>

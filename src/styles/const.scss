@@ -10,4 +10,24 @@
   --color-neutral-grey-04: #ECF1F4;
   --color-neutral-grey-05: #F5F8FA;
   --color-neutral-white: #FFFFFF;
+  --color-semantic-green: #3CB212;
+  --color-semantic-green-lighter: rgba(60, 178, 18, 0.05);
+  --color-semantic-red: #B21212;
+
+  /* ICONS */
+  .icon {
+    width: 12px;
+    height: 12px;
+    display: block;
+    margin-right: 4px;
+  }
+  .alert-error-icon {
+    mask-image: url("../assets/icon/alert-circle.svg");
+    background-color: var(--color-semantic-red);
+  }
+  .alert-error {
+    display: flex;
+    align-items: center;
+    color: var(--color-semantic-red);
+  }
 }
